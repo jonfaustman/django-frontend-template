@@ -5,8 +5,9 @@ register = template.Library()
 
 
 @register.simple_tag
-def h5bp_html(lang):
+def djfe_html(lang):
     """ Returns HTML tag according to chosen language.
+    Part of the HTML5 Boilerplate.
     """
     output=[
         '<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="%s"> <![endif]-->' % lang,
