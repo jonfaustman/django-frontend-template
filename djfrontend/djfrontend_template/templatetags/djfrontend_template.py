@@ -5,7 +5,7 @@ register = template.Library()
 
 
 @register.simple_tag
-def djfe_html(lang):
+def djfrontend_html(lang):
     """ Returns HTML tag according to chosen language.
     Part of the HTML5 Boilerplate.
     """
