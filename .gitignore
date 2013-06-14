@@ -1,7 +1,7 @@
 # System files
 .DS_Store
 dist/
-django_frontend_skeleton.egg-info/
+django_frontend_template.egg-info/
 
 # Python
 *.pyc
