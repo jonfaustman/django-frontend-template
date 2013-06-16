@@ -20,7 +20,7 @@ Returns HTML tag according to chosen language - 'en' is the default.
 
 djfrontend_h5bp_css
 ~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
 Returns HTML5 Boilerplate CSS file according to version number.
 ::
@@ -29,18 +29,18 @@ Returns HTML5 Boilerplate CSS file according to version number.
 
 djfrontend_normalize
 ~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns Normalize CSS file according to version number. The latest '1.1.1' is included.
+Returns Normalize CSS file according to version number.
 ::
 
     <link rel="stylesheet" href="/static/djfrontend/css/normalize/1.1.1/normalize.css">
 
 djfrontend_modernizr
 ~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns Modernizr JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '2.6.2' is included.
+Returns Modernizr JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <script src="/static/djfrontend/js/modernizr/2.6.2/modernizr.js"></script>
@@ -53,9 +53,9 @@ Or
 
 djfrontend_jquery
 ~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns jQuery JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file from Google CDN with local fallback. The latest '1.10.1' and '2.0.2' is included.
+Returns jQuery JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file from Google CDN with local fallback.
 ::
 
     <script src="/static/djfrontend/js/jquery/1.10.1/jquery.js"></script>
@@ -69,9 +69,9 @@ Or
 
 djfrontend_jqueryui
 ~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns jQuery UI plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file from Google CDN with local fallback. The latest '1.10.3' is included.
+Returns jQuery UI plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file from Google CDN with local fallback.
 ::
 
     <script src="/static/djfrontend/js/jquery/jqueryui/1.10.3/jquery-ui.js"></script>
@@ -85,9 +85,9 @@ Or
 
 djfrontend_jquery_datatables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns the jQuery DataTables plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '1.9.4' is included.
+Returns the jQuery DataTables plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <script src="/static/djfrontend/js/jquery/jquery.dataTables/1.9.4/jquery.dataTables.js"></script>
@@ -100,18 +100,18 @@ Or
 
 djfrontend_jquery_datatables_css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns the jQuery DataTables CSS file according to version number. The latest '1.9.4' is included.
+Returns the jQuery DataTables CSS file according to version number.
 ::
 
     <link rel="stylesheet" href="/static/djfrontend/css/jquery/jquery.dataTables/1.9.4/jquery.dataTables.css">
 
 djfrontend_jquery_formset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns the jQuery Dynamic Formset plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '1.2' is included.
+Returns the jQuery Dynamic Formset plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <script src="/static/djfrontend/js/jquery/jquery.formset/1.2/jquery.formset.js"></script>
@@ -124,9 +124,9 @@ Or
 
 djfrontend_jquery_smoothscroll
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns the jQuery Smooth Scroll plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '1.4.10' is included.
+Returns the jQuery Smooth Scroll plugin JavaScript file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <script src="/static/djfrontend/js/jquery/jquery.smooth-scroll/1.4.10/jquery.smooth-scroll.js"></script>
@@ -139,9 +139,9 @@ Or
 
 djfrontend_twbs_css
 ~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns Twitter Bootstrap CSS file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '2.3.2' is included.
+Returns Twitter Bootstrap CSS file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <link rel="stylesheet" href="/static/djfrontend/css/twbs/2.3.2/bootstrap.css">
@@ -154,9 +154,9 @@ Or
 
 djfrontend_twbs_responsive_css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
-Returns Twitter Bootstrap responsive CSS file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file. The latest '2.3.2' is included.
+Returns Twitter Bootstrap responsive CSS file according to version number. TEMPLATE_DEBUG returns full file, otherwise returns minified file.
 ::
 
     <link rel="stylesheet" href="/static/djfrontend/css/twbs/2.3.2/bootstrap-responsive.css">
@@ -169,7 +169,7 @@ Or
 
 djfrontend_twbs_js
 ~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
 
 Returns Twitter Bootstrap (2.3.2) JavaScript file(s). all returns concatenated file; full file for TEMPLATE_DEBUG, minified otherwise. Other choices include:
 
@@ -210,7 +210,7 @@ Shout out to Ryan Brady and his `Django Bootstrapped <https://github.com/rbrady/
 
 djfrontend_ga
 ~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks.**
 
 Returns Google Analytics asynchronous snippet if TEMPLATE_DEBUG is not set. Use DJFRONTEND_GA_SETDOMAINNAME to set domain for multiple, or cross-domain tracking. Set DJFRONTEND_GA_SETALLOWLINKER to use _setAllowLinker method on target site for cross-domain tracking.
 ::
@@ -231,7 +231,7 @@ Or
 
 djfrontend_ios_fix
 ~~~~~~~~~~~~~~~~~~~~
-**Not a part of django-frontend-template but can be used inside one of the included template blocks if static files are added.**
+**Not a direct part of django-frontend-template but can be used inside one of the included template blocks.**
 
 Returns the iOS-Orientationchange-Fix.
 ::
