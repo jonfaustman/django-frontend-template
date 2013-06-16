@@ -4,7 +4,7 @@ Use the included template blocks to suit your needs.
 
 html
 -----
-Override the HTML doctype, or use in conjunction with {% djfrontend_html '' %} to change the HTML lang attribute.
+Override the HTML doctype, or use in conjunction with {% djfrontend_h5bp_html '' %} to change the HTML lang attribute.
 
 meta
 -----
@@ -24,7 +24,7 @@ Parent CSS block to override or extend the included CSS files.
 
 head_js
 ---------
-Override the included {% h5bp_modernizr '2.6.2' %} or extend with JavaScript files that need to loaded in the head.
+Override or extend with JavaScript files that need to loaded in the head.
 
 body_id
 --------
