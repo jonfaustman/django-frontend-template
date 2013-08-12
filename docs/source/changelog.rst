@@ -1,6 +1,10 @@
 Changelog
 ==============
 
+1.1.0
+------
+* Updated djfrontend.py to match related projects.
+
 1.0.0
 ------
 * There was some wide-sweeping, non-backwards compatible changes - read carefully!
