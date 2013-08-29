@@ -7,11 +7,10 @@ With the convenience of a light-weight installable Django application, create cu
 
 There are no static files included. If you want a heavier-weight application built on HTML5 Boilerplate and Twitter Bootstrap then checkout `django-frontend-skeleton <https://github.com/jonfaustman/django-frontend-skeleton>`_. If you want to include often used static files without any templates then check out `django-frontend-static <https://github.com/jonfaustman/django-frontend-static>`_.
 
--------------
-Sunsetting
+Inactive
 -------------
 
-Django Frontend Template is sunsetting. After two more release cycles it will ofically be discontinued. Please transition to `django-frontend <https://github.com/jonfaustman/django-frontend>`_.
+Django Frontend Template is now inactive. Please use `django-frontend <https://github.com/jonfaustman/django-frontend>`_.
 
 While continuing to use Django Frontend Template, be sure to force upgrade to avoid namespacing problems.
 

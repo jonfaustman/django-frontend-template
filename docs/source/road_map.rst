@@ -1,6 +1,4 @@
 Road Map
 ==============
 
-1.*.0
------
-* Officially sunset project in favor of Django Frontend.
+* None. This project is now inactive. Use django-frontend.
