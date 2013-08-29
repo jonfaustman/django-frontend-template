@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-version = '1.1.0'
+version = '1.2.0'
 
 setup(name='django-frontend-template',
       version=version,
       description="A basic Django template built on HTML5 Boilerplate.",
       long_description=open("README.rst", "r").read(),
       classifiers=[
-          "Development Status :: 5 - Production/Stable",
+          "Development Status :: 7 - Inactive",
           "Environment :: Web Environment",
           "Intended Audience :: End Users/Desktop",
           "Natural Language :: English",
