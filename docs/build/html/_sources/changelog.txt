@@ -1,6 +1,11 @@
 Changelog
 ==============
 
+1.2.0
+------
+* Marked as inactive - no more updates.
+* Updated djfrontend.py to match related projects.
+
 1.1.0
 ------
 * Updated djfrontend.py to match related projects.
